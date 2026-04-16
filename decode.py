@@ -8,6 +8,7 @@ def bin_to_float(b):
 with open("result/full.txt", "r") as f:
     binary_data = f.read()
 
+# SET BPM HERE
 TARGET_BPM = 186
 SAMPLE_RATE = 44100
 TICKS_PER_BEAT = 480 
