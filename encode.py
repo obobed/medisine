@@ -37,7 +37,7 @@ for n in all_notes_in_range:
     binary_output += float_to_bin(n['start'])
     binary_output += float_to_bin(n['dur'])
 
-with open("full.txt", "w") as f:
+with open("result/full.txt", "w") as f:
     f.write(binary_output)
 
 print(f"Sorted binary saved, encoded {len(all_notes_in_range)} notes.")
